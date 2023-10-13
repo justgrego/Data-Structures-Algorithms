@@ -24,7 +24,7 @@ class Solution {
                 max = Math.max(max, Math.abs(e.getValue() - map2.get(e.getKey())));
             }
             else {
-                System.out.println("her");
+          
                 max = Math.max(max, e.getValue());
                 
             }
@@ -35,7 +35,7 @@ class Solution {
                 max = Math.max(max, Math.abs(e.getValue() - map.get(e.getKey())));
             }
             else {
-                System.out.println("her");
+       
                 max = Math.max(max, e.getValue());
                 
             }
