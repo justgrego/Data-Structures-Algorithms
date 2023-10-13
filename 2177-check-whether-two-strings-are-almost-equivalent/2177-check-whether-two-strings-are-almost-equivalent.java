@@ -24,7 +24,6 @@ class Solution {
                 max = Math.max(max, Math.abs(e.getValue() - map2.get(e.getKey())));
             }
             else {
-          
                 max = Math.max(max, e.getValue());
                 
             }
