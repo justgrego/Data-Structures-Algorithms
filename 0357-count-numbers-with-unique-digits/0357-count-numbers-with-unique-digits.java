@@ -3,7 +3,7 @@ class Solution {
         
         if (n == 0) return 1;
         if (n == 1) return 10;
-        int prev = 1;
+        
         int curr = 10;
         int count = 0;
         for (int i = 9; i >= 11 - n; i--) {
