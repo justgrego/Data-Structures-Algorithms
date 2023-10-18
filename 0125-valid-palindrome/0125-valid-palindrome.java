@@ -3,7 +3,7 @@ class Solution {
 
         s = s.toLowerCase();
         String filteredText = s.replaceAll("[^a-zA-Z0-9]", "");
-        System.out.println(filteredText);
+        
         int len = filteredText.length() - 1; 
         for (int i = 0; i < filteredText.length() / 2; i++) {
             if (filteredText.charAt(i) == filteredText.charAt(len)) {
